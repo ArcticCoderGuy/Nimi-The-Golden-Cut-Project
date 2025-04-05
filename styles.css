@@ -12,3 +12,11 @@ body
     color: hotpink;
     font-family: monospace;
 }
+
+img {
+    max-width: 85.5%;   
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}   
+

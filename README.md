@@ -1,6 +1,6 @@
 Projektin nimi: The-Golden-Cut-Project – HTML + CSS -toteutus
-# The Golden Cuit 
-Tavoite:
+
+#Tavoite:
 Toteuttaa tehtävänannon mukainen responsiivinen HTML/CSS-sivu,
 jossa on kolme kuvaa, tekstejä ja hover-efekti, sekä huolellinen rakenne ja kommentointi.
 
@@ -10,6 +10,8 @@ Toteutusvaiheet:
 [ OK ] 2a. Luotu HTML-runko (header, main, footer) sekä GitHub integrointi VS Code:een.
 [ OK ] 2b. Testattu että commit ja push toimivat sekä styles ja html puhuu keskenään sujuvasti.
 [ OK ] 2c. HTML- ja CSS-rungot luotu VS Codessa. Boilerplate-toteutus valmis ja `styles.css` yhdistetty `index.html`-tiedostoon (`<link rel="stylesheet" href="styles.css">)
+[ Ok ] 2d. Kuvat ja responsiivinen skaalaus (HTML + CSS)
+Projektin images-kansioon lisättiin kuva meidän koirasta (Studio Ghibli-tyyli) (golden.jpg). Kuva upotettiin index.html-tiedostoon img-elementin avulla, ja sille asetettiin saavutettava alt-teksti.
 
 
 [ ] 3. Lisätty kolme kuvaa omiin sectioneihin
