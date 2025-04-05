@@ -9,7 +9,8 @@ Toteutusvaiheet:
 [OK ] 1. Rakennettu kansiorakenne (images, styles.css, index.html, README.txt)
 [OK ] 2a. Luotu HTML-runko (header, main, footer) sekä GitHub integrointi VS Code:een.
 [OK ] 2b. Testattu että commit ja push toimivat sekä styles ja html puhuu keskenään sujuvasti.
-[ ]2c. Rakennetaan html-ja css-osuudet  sekä niiden "boilerplate" ja synkkaus
+[ ] 2c. HTML- ja CSS-rungot luotu VS Codessa. Boilerplate-toteutus valmis ja `styles.css` yhdistetty `index.html`-tiedostoon (`<link rel="stylesheet" href="styles.css">`)
+
 
 [ ] 3. Lisätty kolme kuvaa omiin sectioneihin
 [ ] 4. Lisätty tekstit ja haalea hover-efekti

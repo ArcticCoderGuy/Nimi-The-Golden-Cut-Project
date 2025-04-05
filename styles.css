@@ -1,0 +1,13 @@
+*   <!-- This is a comment "boilerplate" -->
+{   
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+body
+{
+    backround-color: lighblue;
+    color: darkolivegreen
+}
