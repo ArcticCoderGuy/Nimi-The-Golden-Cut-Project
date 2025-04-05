@@ -1,5 +1,5 @@
 Projektin nimi: The-Golden-Cut-Project – HTML + CSS -toteutus
-
+# The Golden Cuit 
 Tavoite:
 Toteuttaa tehtävänannon mukainen responsiivinen HTML/CSS-sivu,
 jossa on kolme kuvaa, tekstejä ja hover-efekti, sekä huolellinen rakenne ja kommentointi.
@@ -8,7 +8,8 @@ Toteutusvaiheet:
 
 [OK ] 1. Rakennettu kansiorakenne (images, styles.css, index.html, README.txt)
 [OK ] 2a. Luotu HTML-runko (header, main, footer) sekä GitHub integrointi VS Code:een.
-[ ]   2b. Testattu että commit ja push toimivat sekä styles ja html puhuu keskenään.     
+[OK ] 2b. Testattu että commit ja push toimivat sekä styles ja html puhuu keskenään sujuvasti.
+
 [ ] 3. Lisätty kolme kuvaa omiin sectioneihin
 [ ] 4. Lisätty tekstit ja haalea hover-efekti
 [ ] 5. Tyylitelty CSS:llä (layout, fontit, värit)
@@ -39,6 +40,8 @@ Päivämäärä: 4.4.2025
 6.Linkitetään paikallinen kansio GitHub:iin: git remote add origin https://github.com/ArcticCoderGuy/the-golden-cut.git -> 'git branch -M main' -> 'git push -u origin main'
 
 7. Tarkistin että GitHub:ssa näkyy kaikki tiedostot: 'git add .' -> git commit -m "Eka muutos readme.txt tiedostoon" -> 'git push' 
+
+8. 
 
 
 
