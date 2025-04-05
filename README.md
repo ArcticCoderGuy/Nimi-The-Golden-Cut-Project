@@ -41,7 +41,7 @@ Päivämäärä: 4.4.2025
 
 7. Tarkistin että GitHub:ssa näkyy kaikki tiedostot: 'git add .' -> git commit -m "Eka muutos readme.txt tiedostoon" -> 'git push' 
 
-8. 
+8. Testataaan vielä varmuudeksi että toimii
 
 
 
