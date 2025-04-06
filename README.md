@@ -50,15 +50,15 @@ Testattu seuraavilla laitenäkymillä VS Code DevToolsilla:
 - iPad Pro tablettinäkymä, Pixel7 puhelinnäkymä (Android), iPhone 14/SE/XR
 → Skaalaus toimii oikein kaikilla laitteilla.
 
-[ ] 6b. Koodin kommentointi selkeää ja ammattimaista
-[ ] 6c. Testattu Live Serverillä ja tarkistettu ettei virheitä
+[OK ] 6b. Koodin kommentointi selkeää ja ammattimaista
+[OK ] 6c. Testattu Live Serverillä ja tarkistettu ettei virheitä
 
 ---
 
 ### MVP 7: Sticky-elementti
 
-[ ] 7a. Punainen numero (1.) sijoitettu oikeaan alakulmaan
-[ ] 7b. Asemointi toteutettu `position: fixed` tai `sticky`
+[ ] 7a. Punainen ol/ul lista jossa punainen numero 1.
+[ ] 7b. Asemointi ©-toteutettu `position: fixed` TESTIÄ!
 
 ---
 
