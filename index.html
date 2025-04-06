@@ -1,54 +1,66 @@
-<!DOCTYPE html>        <!--HTML5-type-->  
-<html lang="en">       <!--language is english-->
+<!DOCTYPE html> <!--HTML5-type-->
+<html lang="en"> <!--language is english-->
 
-<head>                 <!--head section open--> 
- 
+<head> <!--head section open--> 
+
 <!--Author of document -->    
-<meta name="author" content= "ArcticCoderGuy" >
+<meta name="author" content="ArcticCoderGuy">
 
 <!--author name-->
-<meta name="keywords" content="HTML, CSS, responsive design, beginner project, The Golden Cut, hover effect" > <!--keywords for search engines-->
+<meta name="keywords" content="HTML, CSS, responsive design, beginner project, The Golden Cut, hover effect"> <!--keywords for search engines-->
 
-<meta name="description" content="A dog couple in a timeline"  > <!--description of the document-->
+<meta name="description" content="A dog couple in a timeline"> <!--description of the document-->
 
 <meta charset="UTF-8"> <!--character encoding--> 
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">                    <!--viewport settings-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--viewport settings-->
 
 <link rel="stylesheet" href="styles.css"> <!--link to external CSS file-->
 
-</head>                 <!--head section close-->
+</head> <!--head section close-->
 
-<body>                  <!--body section open-->
+<body> <!--body section open-->
 
 <header>
     <h1>Dog Couple Through Ages</h1> <!--main title of the document-->
     <p> A journey through time with our canine companions -> modern Helsinki.</p> <!--subtitle of the document-->
 </header>
-                        
+
 <!-- Three AI-generated dog couple images representing bronze age, royalty, and modern era, placed in separate sections for layout and styling. -->
-     
+
 <main>
-        <section>
+    <section>
         <h2>Bronze Age Dogs</h2>
         <p> Majestic dog couple rules the ancient lands with wisdom and dignity.</p>
-        <img src="images/bronze.png" alt="dog couple in bronze age"> <!--PIC1-->
+        <div class="image-hover-text">
+            <img src="images/bronze.png" alt="dog couple in bronze age">
+            <span class="hover-text">Once you go Bronze, you are Bronze!</span> 
+        </div> <!-- Wrap the image and hover text in a container -->
     </section>
-    
+
     <section> 
         <h2>Royalty Dogs</h2>
         <p> Dressed in regal robes, these canines represent noble pride & power.</p>
-        <img src="images/Royalty.png" alt="dog couple in royal age"> <!--PIC2-->
+        <div class="image-hover-text">
+            <img src="images/Royalty.png" alt="dog couple in royal age">
+            <span class="hover-text">Regal - but the wife still costs a lot! </span> 
+        </div>
     </section>
 
     <section>
         <h2>Modern Age Dogs</h2>
-        <p> Enjoying "hidden billionare life" and walks with confidence & charm.</p>
-        <img src="images/stadi.png" alt="dog couple in modern age"> <!--PIC3-->
-    </section>        
-
+        <p> Enjoying "hidden billionaire life" and walks with confidence & charm.</p>
+        <div class="image-hover-text">
+            <img src="images/stadi.png" alt="dog couple in modern age">
+            <span class="hover-text"> See Helsinki and be a Helsinkian</span> 
+        </div>
+    </section>
 </main>
 
 
 
-</body>     <!--body section close-->   
+<footer>
+    <p> &copy; 2023 NorthFox. All rights reserved.</p> <!--footer text-->
+</footer> <!--footer section close--> 
+</body> <!--body section close--> 
+</html>

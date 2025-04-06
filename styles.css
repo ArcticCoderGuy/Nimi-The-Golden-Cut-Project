@@ -1,95 +1,135 @@
-
+/* Resetting default browser styling */
 *{   
-    margin:  0;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-
+    box-sizing: border-box;
 }
 
-body
-{
-
-         
-        background-image: url("images/B1.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: #000;
-        color: #ddd;
-        font-family: monospace;
-        text-align: center;
-        padding: 1rem;
-        
+/* Body styling */
+body {
+    background-image: url("images/B1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #ddd;
+    font-family: monospace;
+    text-align: center;
+    padding: 1rem;
 }
 
+/* Image styling */
 img {
     max-width: 85.5%;   
     height: auto;
     display: block;
     margin: 0 auto;
-}   
-
-img:hover {
-    transform: scale(1.05); /* Scale up the image on hover */
-    opacity: 0.9;           /* Slightly reduce opacity on hover */
-    box-shadow: 0 0 40px rgba(245,198,97,0.3) /* Add a golden glow effect */;
-    transition: all 0.3 ease-in-out; /* Smooth transition for all properties */
-    cursor: pointer;                 /* Indicates it's interactable */
-
 }
 
+/* Image hover effect */
+img:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;           
+    box-shadow: 0 0 40px rgba(245,198,97,0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Layout for main */
 main {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
 }
-section {
-    margin-top: 16.5rem; /*Move the "dog pictures" section down*/
-  }
-  
 
+/* Section styling */
+section {
+    margin-top: 11.5rem; 
+}
+
+/* Header styling */
 h1 {
-        font-size: 2.2rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        color: #f5c661;
-    }
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #f5c661;
+}
 
 h2 {
-        font-size: 1.6rem;
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
-        color: #aad4f5;
-   }
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #aad4f5;
+}
 
 p {
-        font-size: 1rem;
-        line-height: 1.5;
-        color: #ddd;
-                
-  }   
-    
-/* ========== RESPONSIVE DESIGN BREAKPOINTS ========== */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ddd;
+}
 
-/* MOBIILI: 1 pictures per line */
+/* Responsive design breakpoints */
 @media (max-width: 600px) {
     section {
       flex: 1 1 100%;
     }
-  }
-  
-  /* TABLET: 2 pictures side-by-side */
-  @media (min-width: 601px) and (max-width: 1024px) {
+}
+@media (min-width: 601px) and (max-width: 1024px) {
     section {
       flex: 1 1 45%;
     }
-  }
-  
-  /* DESKTOP: 3 pictures side-by-side */
-  @media (min-width: 1025px) {
+}
+@media (min-width: 1025px) {
     section {
       flex: 1 1 30%;
-
     }
+}
+
+/* Hover-text container */
+.image-hover-text {
+    position: relative;
+    display: inline-block;
+}
+
+/* Image styling */
+.image-hover-text img {
+    display: block;
+    max-width: 85.5%;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* Hover text styling */
+.hover-text {
+    position: absolute;
+    bottom: 0;  /* Make sure it's positioned at the bottom */
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+    color: #f5c661;  /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;  /* Hidden by default */
+    transition: opacity 0.3s ease;
+    padding: 10px;
+}
+
+/* Show text when image is hovered */
+.image-hover-text:hover .hover-text {
+    opacity: 1;  /* Make the text visible when hovered */
+}
+
+footer {
+    position: fixed;  /* Fixed position */
+    bottom: 0;        /* Bottom */
+    right: 0;         /* On the right side of the page */
+    width: 100%;      /* breadth */
+    background-color: rgba(0, 0, 0, 0.7); /* backround */
+    color: #f5c661;   /* Text color */
+    text-align: right; /* align the text */
+    padding: 10px 0;    /* down or upside */
+    font-size: 1rem;    /* fontsize */
+}
 
