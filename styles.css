@@ -26,5 +26,63 @@ img:hover {
     box-shadow: 0 0 40px rgba(255,255,255,0.3) /* Add a soft glow effect */;
     transition: all 0.3 ease-in-out; /* Smooth transition for all properties */
     cursor: pointer;                 /* Indicates it's interactable */
-   
+
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+body {
+    text-align: center; /* Center the text */
+    padding: 1rem; /* Add some padding */
+} 
+
+h1 {
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: hotpink
+    }
+
+h2 {
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        color: lightblue;
+   }
+
+p {
+        font-size: 1rem;
+        line-height: 1.5;
+        color:#ccc;
+        
+  }   
+    
+/* ========== RESPONSIVE DESIGN BREAKPOINTS ========== */
+
+/* MOBIILI: 1 pictures per line */
+@media (max-width: 600px) {
+    section {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* TABLET: 2 pictures side-by-side */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    section {
+      flex: 1 1 45%;
+    }
+  }
+  
+  /* DESKTOP: 3 pictures side-by-side */
+  @media (min-width: 1025px) {
+    section {
+      flex: 1 1 30%;
+    }
+  
+  
