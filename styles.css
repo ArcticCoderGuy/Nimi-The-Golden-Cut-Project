@@ -8,9 +8,18 @@
 
 body
 {
-    background-color: black;
-    color: hotpink;
-    font-family: monospace;
+
+         
+        background-image: url("images/B1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #000;
+        color: #ddd;
+        font-family: monospace;
+        text-align: center;
+        padding: 1rem;
+        
 }
 
 img {
@@ -23,7 +32,7 @@ img {
 img:hover {
     transform: scale(1.05); /* Scale up the image on hover */
     opacity: 0.9;           /* Slightly reduce opacity on hover */
-    box-shadow: 0 0 40px rgba(255,255,255,0.3) /* Add a soft glow effect */;
+    box-shadow: 0 0 40px rgba(245,198,97,0.3) /* Add a golden glow effect */;
     transition: all 0.3 ease-in-out; /* Smooth transition for all properties */
     cursor: pointer;                 /* Indicates it's interactable */
 
@@ -35,32 +44,30 @@ main {
     gap: 1rem;
     justify-content: center;
 }
-
-
-body {
-    text-align: center; /* Center the text */
-    padding: 1rem; /* Add some padding */
-} 
+section {
+    margin-top: 16.5rem; /*Move the "dog pictures" section down*/
+  }
+  
 
 h1 {
         font-size: 2.2rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
-        color: hotpink
+        color: #f5c661;
     }
 
 h2 {
         font-size: 1.6rem;
         margin-top: 1.5rem;
         margin-bottom: 1rem;
-        color: lightblue;
+        color: #aad4f5;
    }
 
 p {
         font-size: 1rem;
         line-height: 1.5;
-        color:#ccc;
-        
+        color: #ddd;
+                
   }   
     
 /* ========== RESPONSIVE DESIGN BREAKPOINTS ========== */
@@ -83,6 +90,6 @@ p {
   @media (min-width: 1025px) {
     section {
       flex: 1 1 30%;
+
     }
-  
-  
+

@@ -32,10 +32,10 @@ jossa on kolme kuvaa, tekstejä ja hover-efekti, sekä huolellinen rakenne ja ko
 
 ### MVP 5: Layout, fontit ja värit
 
-[OK] 5a. Rakenne eroteltu semanttisiin lohkoihin: header, main, footer
-[OK] 5b. Tekstien asettelu CSS:llä (text-align, font-size, värit, riviväli)
-[ ] 5c. Väriteema yhtenäistetty (body, tekstit, footer yms.)
-[ ] 5d. Kuvien asettelu ja marginaalit viimeistelty (esim. inline-flex)
+[[OK] 5a. Rakenne eroteltu semanttisiin lohkoihin: header, main, footer  
+[OK] 5b. Tekstien asettelu CSS:llä (text-align, font-size, värit, riviväli)  
+[OK] 5c. Väriteema yhtenäistetty (taustakuva, fontit, hover-efekti, värikoodit)  
+[OK] 5d. Kuvien asettelu ja marginaalit viimeistelty (flex, `margin-top: 12rem`)
 
 ---
 
