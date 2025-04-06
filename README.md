@@ -11,11 +11,9 @@ Toteutusvaiheet:
 [ OK ] 2b. Testattu että commit ja push toimivat sekä styles ja html puhuu keskenään sujuvasti.
 [ OK ] 2c. HTML- ja CSS-rungot luotu VS Codessa. Boilerplate-toteutus valmis ja `styles.css` yhdistetty `index.html`-tiedostoon (`<link rel="stylesheet" href="styles.css">)
 [ Ok ] 2d. Kuvat ja responsiivinen skaalaus (HTML + CSS) ![Golden retriever demo](images/DOGGO5555555.png)
-
 Projektin images-kansioon lisättiin kuva meidän koirasta (Studio Ghibli-tyyli) (golden.jpg). Kuva upotettiin index.html-tiedostoon img-elementin avulla, ja sille asetettiin saavutettava alt-teksti.
-
-
-[ ] 3. Lisätty kolme kuvaa omiin sectioneihin
+[OK] 3a. Lisätty kolme kuvaa omiin sectioneihin ja kommentoitu
+[ ]  3b. Lisätty kuviin hover-efekti (opacity/scale/box-shadow tms.)[ ]
 [ ] 4. Lisätty tekstit ja haalea hover-efekti
 [ ] 5. Tyylitelty CSS:llä (layout, fontit, värit)
 [ ] 6. Responsiivisuus testattu
