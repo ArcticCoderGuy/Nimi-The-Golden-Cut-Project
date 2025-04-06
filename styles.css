@@ -21,6 +21,10 @@ img {
 }   
 
 img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out
+    transform: scale(1.05); /* Scale up the image on hover */
+    opacity: 0.9;           /* Slightly reduce opacity on hover */
+    box-shadow: 0 0 40px rgba(255,255,255,0.3) /* Add a soft glow effect */;
+    transition: all 0.3 ease-in-out; /* Smooth transition for all properties */
+    cursor: pointer;                 /* Indicates it's interactable */
+   
 }
