@@ -57,8 +57,12 @@ Testattu seuraavilla laitenäkymillä VS Code DevToolsilla:
 
 ### MVP 7: OL/UL lista ja punainen 1 sekä ©-"Fixed" paikka oikea alareuna
 
-[ ] 7a. Punainen ol/ul lista jossa punainen numero 1.
-[ ] 7b. Asemointi ©-toteutettu `position: fixed` TESTIÄ!
+
+[ OK ] 7a. Reflektio-lista rakennettu (OL + hover-efekti spanilla, piilotettu ensimmäinen kohta näkyy hoverilla)
+- [x] 7a-e. Rakennettu `ol`-lista, jossa ensimmäinen **numero näkyy punaisena** ja siihen liittyvä teksti on aluksi piilossa. Hoverilla teksti tulee esiin keltaisena. Toteutuksessa käytettiin `span`-tagia piilotuksen hallintaan (`.hidden-text`) ja `:hover`-efektiä esilletuontiin. Ensimmäisen listaelementin numeron väritys toteutettiin luokan `.reflection li:first-child` avulla.
+ hoveria. Käytetty `span`-tagia ja CSS `hover`-efektiä tekstin esiin tuomiseen.
+
+[ ] 7c. Asemointi ©-toteutettu `position: fixed` 
 
 ---
 
