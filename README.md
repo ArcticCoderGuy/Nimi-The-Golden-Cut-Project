@@ -67,17 +67,17 @@ Testattu seuraavilla laitenäkymillä VS Code DevToolsilla:
 
 ### MVP 8: Luovutus
 
-[ ] 8. Projekti luovutettu opettajalle (Timo) ja dokumentaatio valmis
+[OK ] 8. Projekti luovutettu opettajalle (Timo) ja dokumentaatio valmis
+Projektin nimi: The-Golden-Cut-Project – HTML + CSS -toteutus
 
----
 
-Tekijä: Markus "NorthFox" Kaprio  
-Päivämäärä: 6.4.2025  
+         # ✅ PROJEKTI VALMIS - VALMIS PALAUTETTAVAKSI (7.4.2025)
 
-**Erityismaininnat**: Pekka Takala, The koodari-velho ja Henrik Veso Azure-moniosaaja jotka auttoivat projektin dokumentoinnin sekä Pekan sanoin "koodarin mindset:in saavuttelusta". 
 
-							
-			                   -Tapahtumaloki- 
+
+
+
+                      -Aloitustapahtumaloki- 
 
 
    Projektin ensimäinen työvaihe: repo + versiohallinta + yhteistyö
@@ -98,7 +98,4 @@ Päivämäärä: 6.4.2025
 7. Tarkistin että GitHub:ssa näkyy kaikki tiedostot: 'git add .' -> git commit -m "Eka muutos readme.txt tiedostoon" -> 'git push' 
 
 8. Testataaan vielä varmuudeksi että commit:oimnti toimii ja toimii varmisti
-
-
-
 
