@@ -133,3 +133,13 @@ footer {
     font-size: 1rem;    /* fontsize */
 }
 
+.hidden-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: none;
+}
+.reflection li:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+    color: yellow;
+}

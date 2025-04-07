@@ -55,7 +55,7 @@ Testattu seuraavilla laitenäkymillä VS Code DevToolsilla:
 
 ---
 
-### MVP 7: Sticky-elementti
+### MVP 7: OL/UL lista ja punainen 1 sekä ©-"Fixed" paikka oikea alareuna
 
 [ ] 7a. Punainen ol/ul lista jossa punainen numero 1.
 [ ] 7b. Asemointi ©-toteutettu `position: fixed` TESTIÄ!
