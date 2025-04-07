@@ -143,3 +143,8 @@ footer {
     opacity: 1;
     color: yellow;
 }
+
+/* First list item number in red */
+.reflection li:first-child {
+    color: red;
+}
