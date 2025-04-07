@@ -59,10 +59,9 @@ Testattu seuraavilla laitenäkymillä VS Code DevToolsilla:
 
 
 [ OK ] 7a. Reflektio-lista rakennettu (OL + hover-efekti spanilla, piilotettu ensimmäinen kohta näkyy hoverilla)
-- [x] 7a-e. Rakennettu `ol`-lista, jossa ensimmäinen **numero näkyy punaisena** ja siihen liittyvä teksti on aluksi piilossa. Hoverilla teksti tulee esiin keltaisena. Toteutuksessa käytettiin `span`-tagia piilotuksen hallintaan (`.hidden-text`) ja `:hover`-efektiä esilletuontiin. Ensimmäisen listaelementin numeron väritys toteutettiin luokan `.reflection li:first-child` avulla.
+[OK] 7b. Rakennettu `ol`-lista, jossa ensimmäinen **numero näkyy punaisena** ja siihen liittyvä teksti on aluksi piilossa. Hoverilla teksti tulee esiin keltaisena. Toteutuksessa käytettiin `span`-tagia piilotuksen hallintaan (`.hidden-text`) ja `:hover`-efektiä esilletuontiin. Ensimmäisen listaelementin numeron väritys toteutettiin luokan `.reflection li:first-child` avulla.
  hoveria. Käytetty `span`-tagia ja CSS `hover`-efektiä tekstin esiin tuomiseen.
-
-[ ] 7c. Asemointi ©-toteutettu `position: fixed` 
+[OK] 7c. Asemointi ©-toteutettu `position: fixed` 
 
 ---
 
@@ -75,10 +74,10 @@ Testattu seuraavilla laitenäkymillä VS Code DevToolsilla:
 Tekijä: Markus "NorthFox" Kaprio  
 Päivämäärä: 6.4.2025  
 
-Erityismaininnat: Pekka Takala, koodari-velho ja Henrik Veso Azure-moniosaaja jotka auttoivat projektin dokumentoinnin sekä Pekan sanoin "koodarin mindset:in saavuttelusta". 
+**Erityismaininnat**: Pekka Takala, The koodari-velho ja Henrik Veso Azure-moniosaaja jotka auttoivat projektin dokumentoinnin sekä Pekan sanoin "koodarin mindset:in saavuttelusta". 
 
 							
-			            -Tapahtumaloki- 
+			                   -Tapahtumaloki- 
 
 
    Projektin ensimäinen työvaihe: repo + versiohallinta + yhteistyö
